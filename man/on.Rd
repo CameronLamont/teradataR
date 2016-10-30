@@ -15,16 +15,16 @@ on(target=NULL, from=NULL, subQuery=NULL, partition=NULL, hash=NULL, order=NULL,
   \item{target}{
 a character that represents a name of a table or a query expression
 }
-  \item{from} {
+  \item{from}{
 a character that represents a name of the origin of a query expression
 }
   \item{subQuery}{
 a character that represents a nested ON Clause or nested query expression that is part of an ON Clause
 }
-  \item{partition} {
+  \item{partition}{
 the parallel option, partition by <column>, or partition by <any>  
 }
- \item{hash} {
+ \item{hash}{
 the parallel option, hash by <column>
 }
   \item{order}{
@@ -36,10 +36,10 @@ the parallel option, local order by <column>
   \item{null_order}{
 specification for the parallel option local_order 
 }
-  \item{dimension} {
+  \item{dimension}{
 the parallel option, dimension 
 }
-  \item{as} {
+  \item{as}{
 creates and alias    
 }
 }
